@@ -1,6 +1,7 @@
 // adding components
 import Player from './components/Player'
 import Song from './components/Song'
+import SecretComponent from './components/SecretComponent'
 // import styles scss
 import "./styles/app.scss"
 // import util
@@ -20,6 +21,7 @@ function App() {
       isPlaying={isPlaying}
       setIsPlaying={setIsPlaying}
       currentSong={currentSong} />
+      <SecretComponent />
     </div>
   );
 }
