@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faPlay, faAngleLeft, faAngleRight, faPause } from '@fortawesome/free-solid-svg-icons'
 import {useRef, useState} from 'react';
 
-const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
+const SecretPlayer = ({ currentSong, isPlaying, setIsPlaying }) => {
     // ref
     const audioRef = useRef(null);
     // event handlers
@@ -35,15 +35,15 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
         duration: 0,
     })
     return(
-        <div className="player">
-            <div className="time-control">
+        <div className="secretPlayer">
+            <div className="secret-time-control">
                 <p>{getTime(songInfo.currentTime)}</p>
                 <input min={0} max={songInfo.duration} 
                 onChange={dragHandler}
                 value={songInfo.currentTime} type="range"/>
                 <p> {getTime(songInfo.duration)}</p>
             </div>
-            <div className="play-control">
+            <div className="secret-play-control">
             <FontAwesomeIcon className="skip-back" size='2x' icon={faAngleLeft} />
             <FontAwesomeIcon className="play" 
             onClick={playSongHandler}
@@ -59,4 +59,4 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
     )
 }
 
-export default Player;
+export default SecretPlayer;

@@ -1,7 +1,7 @@
 
-const Song = ({currentSong}) => {
+const SecretSong = ({currentSong}) => {
     return(
-        <div className="song-container">
+        <div className="secretSong">
             <img src={currentSong.cover} alt={currentSong.name} />
             <h2>{currentSong.name}</h2>
             <h3>{currentSong.artist}</h3>
@@ -9,4 +9,4 @@ const Song = ({currentSong}) => {
     )
 }
 
-export default Song;
+export default SecretSong;
