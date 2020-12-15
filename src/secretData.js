@@ -18,7 +18,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/02_Dance_While_You_Shoot.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Toy',
@@ -27,7 +27,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/03_Toy.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Instruction',
@@ -36,7 +36,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/04_Instruction.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Pity',
@@ -45,7 +45,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/05_Pity.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Quiet One',
@@ -54,7 +54,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/06_Quiet_one.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Worth None',
@@ -63,7 +63,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/07_Worth_one.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Global Fear',
@@ -72,7 +72,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/08_Global_Fear.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Hit U',
@@ -81,7 +81,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/09_Hit_U.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Off The Radar',
@@ -90,7 +90,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/10_Off_The_Radar.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Side Effect',
@@ -99,7 +99,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/11_Side_Effect.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Muezzin',
@@ -108,7 +108,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/12_Muezzin.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Noisy',
@@ -117,7 +117,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/13_Noisy.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'A Hit Is A Hit',
@@ -126,7 +126,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/14_a_hit_Is_A_Hit.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
         {
             name: 'Junior',
@@ -135,7 +135,7 @@ function Data(){
             audio: `${process.env.PUBLIC_URL}/nogaerez-offtheradar/15_Junior.mp3`,
             id: uuidv4(),
             color: ["#6C1228", "#05284E"],
-            active: true,      
+            active: false,      
         },
     ]
 }
