@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
 
-const EyeComponent = () => {
+const EyeComponent = ({ eyeStatus}) => {
     return(
-        <div className="eye">
-            <Link to="/secretPlayer"> 
+        <div className={`eye ${eyeStatus ? 'active-eye' : ''}`}>
+            <Link to='/SecretPlayer' > 
             <img src={`${process.env.PUBLIC_URL}/siteImages/eyeBall.png`} alt="secret eye"/>
             </Link>
         </div>
