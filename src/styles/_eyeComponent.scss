@@ -1,20 +1,22 @@
 .eye {
-  height: 10vh;
+  height: 5vh;
   // border: 2px solid red;
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  img {
-    height: 25%;
-    margin-top: 5rem;
-    margin-right: 25rem;
-    opacity: 0;
-    cursor: none;
-    transition: all 2.5s ease;
-  }
 }
 
-.active-eye img {
+.eye img {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 50%;
+  margin-right: 2rem;
+  opacity: 0;
+  cursor: none;
+  transition: all 2.5s ease;
+}
+
+.eye .active-eye {
   opacity: 0.5;
   cursor: pointer;
   transition: all 2.5s ease-in-out;

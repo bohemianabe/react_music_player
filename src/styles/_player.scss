@@ -40,7 +40,12 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 16px;
   width: 16px;
-  background: black;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
 }
 
 .track {
@@ -49,7 +54,6 @@ input[type="range"]::-webkit-slider-thumb {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  background: lightblue;
 }
 
 .animate-track {
@@ -61,4 +65,13 @@ input[type="range"]::-webkit-slider-thumb {
   left: 0;
   transform: translateX(0%);
   pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .time-control {
+    width: 90%;
+  }
+  .player-control {
+    width: 60%;
+  }
 }

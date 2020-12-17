@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom'
 
-const EyeComponent = ({ eyeStatus}) => {
+const EyeComponent = ({ eyeStatus }) => {
     return(
-        <div className={`eye ${eyeStatus ? 'active-eye' : ''}`}>
+        <div className='eye'>
             <Link to='/SecretPlayer' > 
-            <img src={`${process.env.PUBLIC_URL}/siteImages/eyeBall.png`} alt="secret eye"/>
+            <img className={`${eyeStatus ? 'active-eye' : ''}`} src={`${process.env.PUBLIC_URL}/siteImages/eyeBall.png`} alt="secret eye"/>
             </Link>
         </div>
     )
